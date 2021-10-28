@@ -1,0 +1,53 @@
+.order {
+    background-color: white;
+    text-align: center;
+    height: 73rem;
+    width: 43rem;
+    border-radius: 1.8rem;
+    overflow: hidden;
+    box-shadow: 0 2rem 5rem rgba(black,.2);
+    
+    &__picture {
+        background-image: url(../img/illustration-hero.svg);
+        background-size: cover;
+        background-position: center;
+        height: 23rem;
+    }
+
+    &__header {
+        margin: 3rem 7rem;
+    }
+
+    &__plan {
+        background-color: $very-pale-blue;
+        display: flex;
+        justify-content: center;
+        border-radius: 1.3rem;
+        margin: 0 4rem;
+    }
+
+    &__music-logo {
+        margin: 2.1rem;
+        margin-left: -1rem;
+    }
+
+    &__package {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 6rem;
+    }
+
+    &__plan-name {
+        margin: 0 auto;
+        font-size: 1.8rem;
+    }
+
+    &__payment {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 4rem;
+    }
+
+}
+
